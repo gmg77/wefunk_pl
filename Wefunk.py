@@ -162,7 +162,7 @@ def get_valid_int(prompt):
             print("Invalid input. Please enter a number.")
 
 def main():
-    print("--- WEFUNK Radio Scraper (ID Verification Added) ---")
+    print("--- WEFUNK Radio PL Scraper ---")
     start_show = get_valid_int("Enter START show number: ")
     end_show = get_valid_int("Enter END show number: ")
 
@@ -204,3 +204,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
