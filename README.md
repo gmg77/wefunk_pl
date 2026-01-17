@@ -21,6 +21,7 @@ enter show# at prompt
 Shoutouts
 ------
 Professor Groove, DJ Static and the wefunkradio crew for brining the funk soul and hiphop since 1996!
+https://session.wefunkradio.com
 
 The WeFunk Playlist Project
 https://www.haxwell.org/wfpp/wfpp.html
