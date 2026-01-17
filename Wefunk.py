@@ -31,7 +31,7 @@ def parse_show(show_id):
 
         soup = BeautifulSoup(response.content, 'html.parser')
 
-        # --- NEW: ID VERIFICATION ---
+        # --- In Funk We Trust ---
         # Checks if the page title actually contains the Show ID we asked for.
         # This prevents the script from scraping the homepage if the site redirects invalid IDs.
         page_title = soup.title.string if soup.title else ""
@@ -202,4 +202,5 @@ def main():
     print(f"\nDone. Scraped {len(all_shows)} shows. Saved to {output_file}")
 
 if __name__ == "__main__":
+
     main()
