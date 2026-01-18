@@ -14,7 +14,7 @@ Quickstart
 
 pip install requests beautifulsoup4
 
-python wefunk.py
+python wefunkpl.py
 
 enter show# at prompt
 
