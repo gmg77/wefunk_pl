@@ -87,11 +87,8 @@ def parse_show(show_id):
                 if note_tag:
                     entry['note'] = clean_text(note_tag.get_text()).strip("()")
                 
-                artist_lower = entry.get('artist', '').lower()
-                track_content = entry.get('track', '')
-                if artist_lower == 'intro' and not track_content:
-                    continue
-
+                # --- CHANGE MADE HERE: Removed Intro skipping logic ---
+                
                 if entry.get('artist') or entry.get('track'):
                     playlist.append(entry)
 
@@ -204,4 +201,3 @@ def main():
 if __name__ == "__main__":
 
     main()
-
