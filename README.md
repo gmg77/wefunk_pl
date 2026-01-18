@@ -12,10 +12,9 @@ Prerequisites
 Quickstart
 --------------
 
-pip install requests beautifulsoup4
+```pip install requests beautifulsoup4```
 
-python wefunkpl.py
-
+```python wefunkpl.py```
 enter show# at prompt
 
 Shoutouts
